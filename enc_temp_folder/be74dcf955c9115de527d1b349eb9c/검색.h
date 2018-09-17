@@ -3,7 +3,7 @@
 // l : 배열 크기
 // v : 찿을값
 template<typename T1, typename T2>
-unsigned int BinarySearch(T1 *&d, unsigned int c, T2 &v) {
+unsigned int f_find(T1 *&d, unsigned int c, T2 &v) {
 	unsigned int l = 0, h = c - 1, m=0;//l:작은 위치, h: 큰 위치 , m 중간값
 	do
 	{		

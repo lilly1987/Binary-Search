@@ -49,7 +49,7 @@ int main(int argc, char* argv[]) {
 		clock_t begin, end, t0, t1, t2, t3, t4, t5, t6, t7, t8;//시간 측정용
 
 		begin = clock();
-		n=BinarySearch(arr0, c0, c1);//순위
+		n=f_find(arr0, c0, c1);//순위
 		end = clock();          // 시간설정		
 		t0 = end - begin;
 
